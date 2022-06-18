@@ -6,3 +6,14 @@ while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)  // We read a string 
 
 string[] initialArray = new string[n]; // Declaration of one-dimensional arrays of strings of size n entered by the user
 string[] newArray = new string[n];
+
+FillArray(initialArray);
+
+void FillArray(string[] arr)   // Filling in an array using keyboard input
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write("Enter the element №{0}: ", i + 1);
+        initialArray[i] = Console.ReadLine();
+    }
+}
