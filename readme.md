@@ -53,13 +53,10 @@ gth3. В методе `SelectedArray(arr[ ])` используется цикл 
 
 >  commit 34ff5d37defee1ffa56ab9f19190293e054e9dae (Merge branch 'Solution1’) окончательное решение №1
 
->   (combining all solutions into the main project) - общее решение с закомментированным решением №1) окончательное решение 2 с комментарием решения 1
-
 > ветка Solution1- с решением 1
 
 > ветка Solution2- с решением 2
 
->  
- (solution 2 was abandoned by deleting the comment with solution 1) окончательное решение №2
+>  commit 77ef65f11d9385689060f952747dc730371287b1 (Combining all solutions into the main project. Solved the conflict manually and deleted solution 1 in the comment.) - общее решение с закомментированным решением №1) окончательное решение 2 с комментарием решения 1
 
 ##### Также в проект добавлен файл `.gitignore` со впомогательными папками проекта
