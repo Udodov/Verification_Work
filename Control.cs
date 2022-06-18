@@ -8,6 +8,8 @@ string[] initialArray = new string[n]; // Declaration of one-dimensional arrays 
 string[] newArray = new string[n];
 
 FillArray(initialArray);
+Console.WriteLine("Initial array:");
+PrintArray(initialArray);
 
 void FillArray(string[] arr)   // Filling in an array using keyboard input
 {
@@ -16,4 +18,14 @@ void FillArray(string[] arr)   // Filling in an array using keyboard input
         Console.Write("Enter the element №{0}: ", i + 1);
         initialArray[i] = Console.ReadLine();
     }
+}
+
+void PrintArray(string[] arr)   // Output an array to the console
+{
+    Console.Write("[");
+    for (int i = 0; i < arr.Length; i++)
+        if (i < arr.Length - 1)
+            Console.Write(arr[i] + ", ");
+        else Console.Write(arr[i] + "]");
+    Console.WriteLine();
 }
